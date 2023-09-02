@@ -18,6 +18,10 @@ git commit -m "a little"
 git config --global user.name YIFANYUE99
 git config --global user.email yifanyue@outlook.com
 
+查看用户自己配置
+git config --global --list
+
+
 克隆仓库
 git clone https://github.com/YiFanYUE99/how_to_use_git.git
 
