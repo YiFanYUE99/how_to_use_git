@@ -26,3 +26,19 @@ git config --global --list
 git clone https://github.com/YiFanYUE99/how_to_use_git.git
 
 
+如何上传到给github：
+设置ssh
+ssh-keygen -t rsa -C "你的邮箱名"
+然后回车设置密码
+cat ~/.ssh/id_rsa.pub
+将显示内容复制到GitHub上settings ： SSH keys：new keys中；然后与github通信
+ssh -T git@github.com
+成功通信
+git add .
+git commit -m "0903"
+git push -u
+
+完成
+
+
+
