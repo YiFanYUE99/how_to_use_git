@@ -1,0 +1,24 @@
+首先，项目文件夹下 git bash here
+git init
+
+然后，准备提交
+git add .
+
+接着， 提交
+git commit -m "yingyubeizhu"
+
+如果要恢复到上一个版本
+git checkout HEAD git_usage.txt
+
+交一部分
+git add xx.py
+git commit -m "a little"
+
+配置用户名和密码
+git config --global user.name YIFANYUE99
+git config --global user.email yifanyue@outlook.com
+
+克隆仓库
+git clone https://github.com/YiFanYUE99/how_to_use_git.git
+
+
