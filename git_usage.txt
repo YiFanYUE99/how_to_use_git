@@ -41,4 +41,31 @@ git push -u
 完成
 
 
+大文件
+git lfs install
+
+git lfs track （大文件名称）
+
+git add .gitattributes
+
+git add （大文件名称）
+
+git commit -m "submit file"
+
+ssh -T git@github.com
+
+git push -u 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
