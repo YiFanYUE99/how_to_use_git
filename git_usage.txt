@@ -48,6 +48,8 @@ git lfs track （大文件名称）
 
 git add .gitattributes
 
+git lfs migrate import --include="software/em_pred1026.exe"
+
 git add （大文件名称）
 
 git commit -m "submit file"
