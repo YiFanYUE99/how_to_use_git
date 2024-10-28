@@ -44,7 +44,9 @@ git push -u
 大文件
 git lfs install
 
-git lfs migrate import --include="software/em_pred1026.exe"
+git lfs track software/em28_t9.exe
+
+git lfs migrate import --include="software/em28_t9.exe"
 
 git add （大文件名称）
 
